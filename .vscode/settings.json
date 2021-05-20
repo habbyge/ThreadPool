@@ -1,0 +1,14 @@
+{
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "__split_buffer": "cpp",
+    "deque": "cpp",
+    "vector": "cpp",
+    "functional": "cpp",
+    "type_traits": "cpp",
+    "future": "cpp"
+  }
+}
