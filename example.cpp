@@ -2,7 +2,7 @@
 #include <vector>
 #include <chrono>
 
-#include "ThreadPool.h"
+#include "thread_pool.h"
 
 int main(int argc, char** argv) {
   ThreadPool pool(4);
@@ -19,8 +19,9 @@ int main(int argc, char** argv) {
     );
   }
 
-  for (auto&& result : results)
+  for (auto&& result : results) {
     std::cout << result.get() << ' ';
+  }
   std::cout << std::endl;
     
   return 0;
